@@ -6,7 +6,7 @@
 /*   By: asmati <asmati@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 14:06:03 by asmati            #+#    #+#             */
-/*   Updated: 2025/05/21 16:37:03 by asmati           ###   ########.fr       */
+/*   Updated: 2025/05/23 07:48:20 by asmati           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
+# include <string.h>
+# include <stdint.h>
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
